@@ -2,7 +2,7 @@
 
 This has support for a Z stop induction sensor on the stock Melzi board that comes with the Wanhao Duplicator V2.1 (Monoprice Maker Select V2). 
 
-The LCD will be corrupted unless you edit the Marlin file ultralcd_st7920_u8glib_rrd.h and locate the line that reads
+The LCD will be corrupted unless you edit the Marlin file `ultralcd_st7920_u8glib_rrd.h` and locate the line that reads
 
 ```
 //set optimization so ARDUINO optimizes this file
